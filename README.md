@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 05-03-25
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: Dhanusya K
+###  ROLL NO :212223230043
+###  DEPARTMENT: BTech(AI&DS)
 
 
 
@@ -86,15 +86,29 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+~~~
+#include "main.h"
+#include "stdio.h"
+int main(void)
+{
+  while (1)
+  {
+    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_RESET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_0, GPIO_PIN_SET);
+    HAL_Delay(1000);
+  }
+}
 
-
-
+~~~
 
 
 ## OUTPUT  :
  
- 
- 
+ ![419323363-3f6ba13f-40d0-40d3-afdb-d0fe498cc5bc](https://github.com/user-attachments/assets/a6192248-e896-4d0e-a3b5-08875f905ecc)
+
+ ![419323401-8001bdee-61f2-4925-a896-07378fd2d000](https://github.com/user-attachments/assets/b9a48b76-5927-413f-8daf-13045b8c73c2)
+
  
 ## Result :
 Interfacing a digital output with ARM microcontroller based IOT development is executed and the results are verified.
